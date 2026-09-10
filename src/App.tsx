@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Layout from './components/layout/Layout';
 import { TOOLS } from './data/tools';
 

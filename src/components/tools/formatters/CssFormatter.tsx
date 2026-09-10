@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { css as beautifyCss } from 'js-beautify';
 import Editor from '../../common/Editor';
 

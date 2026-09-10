@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function LoremIpsum() {
   const [paragraphs, setParagraphs] = useState(3);

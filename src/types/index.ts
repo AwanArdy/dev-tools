@@ -3,6 +3,8 @@ export type CategoryId = 'formatters' | 'minifiers' | 'encoders' | 'generators' 
 export interface Category {
   id: CategoryId;
   name: string;
+  desc: string;
+  iconName: string;
 }
 
 export interface Tool {
@@ -10,4 +12,6 @@ export interface Tool {
   category: CategoryId;
   name: string;
   desc: string;
+  iconName: string;
+  tags?: string[];
 }

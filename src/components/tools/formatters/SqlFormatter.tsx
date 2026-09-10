@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { format } from 'sql-formatter';
 import Editor from '../../common/Editor';
 

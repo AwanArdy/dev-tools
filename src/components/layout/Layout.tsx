@@ -1,6 +1,6 @@
-import React, { useState, ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
 import { CATEGORIES, TOOLS } from '../../data/tools';
-import { Tool } from '../../types';
+import type { Tool } from '../../types';
 
 interface LayoutProps {
   activeToolId: string | null;

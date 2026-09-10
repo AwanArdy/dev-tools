@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Editor from '../../common/Editor';
 
 export default function JsonToCsv() {
